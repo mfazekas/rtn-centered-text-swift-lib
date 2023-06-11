@@ -1,0 +1,21 @@
+{
+  "name": "rtn-centered-text-swift-lib",
+  "version": "1.0.0",
+  "description": "Example fabric component implement in swift",
+  "react-native": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miklós Fazekas",
+  "license": "MIT",
+  "homepage": "https://github.com/mfazekas/rtn-centered-text-swift-lib#readme",
+  "peerDepencencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNCenteredTextSpecs",
+    "type": "components",
+    "jsSrcsDir": "src"
+  }
+}
